@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Our Product Landing Page</h1>
+        <nav>
+            <ul>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="features">
+        <a href="features.html">
+            <h2>Product Features</h2>
+        </a>
+        <p>Discover the amazing features of our product.</p>
+    </section>
+
+    <section id="pricing">
+        <a href="pricing.html">
+            <h2>Pricing Plans</h2>
+        </a>
+        <p>Choose a plan that fits your needs.</p>
+    </section>
+
+    <section id="contact">
+        <a href="contact.html">
+            <h2>Contact Us</h2>
+        </a>
+     
+
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter Your Full name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter YOur Email" required>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <!-- search bar  -->
+    <div class="search-container">
+        <form>
+            <label for="search">Search:</label>
+            <input type="text" id="search" placeholder="Search products..." onkeyup="searchProduct()">
+
+        </form>
+
+
+
+    </div>
+
+
+    <footer>
+        <p>&copy; 2025 Product Landing Page. All rights reserved&reg;.</p>
+    </footer>
+
+</body>
+<script src=" app.js "></script>
+
+</html>
